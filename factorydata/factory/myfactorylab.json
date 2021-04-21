@@ -1,0 +1,9 @@
+{
+	"name": "myfactorylab",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b145ac65-5958-4b5e-b25c-9ae5e5eb71dc",
+		"tenantId": "d78f2755-3785-4233-9333-cae33ed781c5"
+	}
+}
