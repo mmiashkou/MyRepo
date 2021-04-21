@@ -1,0 +1,10 @@
+{
+	"name": "MyAzureDataLakeStorageLab",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://mystorageaccountmame.dfs.core.windows.net"
+		}
+	}
+}
