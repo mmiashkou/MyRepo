@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Execute SSIS package1",
+				"name": "Execute SSIS package",
 				"type": "ExecuteSSISPackage",
 				"dependsOn": [],
 				"policy": {
