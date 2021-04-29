@@ -24,7 +24,7 @@
 						"referenceName": "SSISintegrationRuntime",
 						"type": "IntegrationRuntimeReference"
 					},
-					"loggingLevel": "Basic"
+					"loggingLevel": "None"
 				}
 			}
 		],
