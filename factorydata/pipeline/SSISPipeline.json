@@ -19,6 +19,7 @@
 						"packagePath": "New/SsisPackages/CopyProductCategory.dtsx",
 						"type": "SSISDB"
 					},
+					"runtime": "x86",
 					"environmentPath": null,
 					"connectVia": {
 						"referenceName": "SSISintegrationRuntime",
