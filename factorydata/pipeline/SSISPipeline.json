@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Execute SSIS package",
+				"name": "Execute SSIS package1",
 				"type": "ExecuteSSISPackage",
 				"dependsOn": [],
 				"policy": {
@@ -19,7 +19,6 @@
 						"packagePath": "New/SsisPackages/CopyProductCategory.dtsx",
 						"type": "SSISDB"
 					},
-					"runtime": "x64",
 					"environmentPath": null,
 					"connectVia": {
 						"referenceName": "SSISintegrationRuntime",
