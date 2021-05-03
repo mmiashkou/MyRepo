@@ -1,0 +1,23 @@
+{
+	"name": "ProductCategory",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MyAzureDataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Raw",
+				"fileSystem": "lakeroot"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
