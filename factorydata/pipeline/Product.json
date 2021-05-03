@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data to lake",
+				"name": "CopyProduct",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
