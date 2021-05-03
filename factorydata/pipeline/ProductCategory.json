@@ -43,13 +43,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "ASQL_ProductModel",
+						"referenceName": "ASQL_ProductCategory",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "ProductModel",
+						"referenceName": "ProductCategory",
 						"type": "DatasetReference"
 					}
 				]
