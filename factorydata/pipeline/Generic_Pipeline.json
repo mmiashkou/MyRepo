@@ -63,7 +63,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"File": {
-								"value": "@{pipeline().parameters.TableSchema}.@(pipeline().parameters.TableName).txt",
+								"value": "@{pipeline().parameters.TableSchema}.@{pipeline().parameters.TableName}.txt",
 								"type": "Expression"
 							}
 						}
