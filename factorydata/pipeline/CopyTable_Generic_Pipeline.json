@@ -1,5 +1,5 @@
 {
-	"name": "Generic_Pipeline",
+	"name": "CopyTable_Generic_Pipeline",
 	"properties": {
 		"activities": [
 			{
