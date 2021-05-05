@@ -24,7 +24,8 @@
 					"dataset": {
 						"referenceName": "ASQL_Product",
 						"type": "DatasetReference"
-					}
+					},
+					"firstRowOnly": false
 				}
 			}
 		],
