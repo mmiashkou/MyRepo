@@ -56,7 +56,14 @@
 									"referenceName": "CopyTable_Generic_Pipeline",
 									"type": "PipelineReference"
 								},
-								"waitOnCompletion": true
+								"waitOnCompletion": true,
+								"parameters": {
+									"TableSchema": {
+										"value": "@item().TABLE_SCHEMA",
+										"type": "Expression"
+									},
+									"TableName": "@item().TABLE_NAME"
+								}
 							}
 						}
 					]
