@@ -1,0 +1,32 @@
+{
+	"name": "ADLS_Row_Generic",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MyAzureDataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"File": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().Filedataset().File",
+					"type": "Expression"
+				},
+				"folderPath": "Raw",
+				"fileSystem": "lakeroot"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
