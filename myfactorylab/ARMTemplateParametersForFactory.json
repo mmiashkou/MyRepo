@@ -13,6 +13,15 @@
 		},
 		"MyAzureDataLakeStorage_properties_typeProperties_url": {
 			"value": "https://mystaccountlab.dfs.core.windows.net/"
+		},
+		"SSISintegrationRuntime_properties_typeProperties_ssisProperties_catalogInfo_catalogServerEndpoint": {
+			"value": "myserversqllab.database.windows.net"
+		},
+		"SSISintegrationRuntime_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminUserName": {
+			"value": "sql-admin"
+		},
+		"SSISintegrationRuntime_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminPassword": {
+			"value": ""
 		}
 	}
 }
