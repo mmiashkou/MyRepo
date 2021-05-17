@@ -1,0 +1,12 @@
+{
+	"name": "HttpServer1",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://media-www.micron.com/-/media/client/global/documents/products/power-calculator/ddr4_impedance_target_calculator.xlsx?rev=25e0a6a32d5c452e9f75a5fff793307e",
+			"enableServerCertificateValidation": false,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
