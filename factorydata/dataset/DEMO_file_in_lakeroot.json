@@ -2,14 +2,16 @@
 	"name": "DEMO_file_in_lakeroot",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "HttpServer1",
+			"referenceName": "MyAzureDataLakeStorage",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation"
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Raw",
+				"fileSystem": "lakeroot"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
