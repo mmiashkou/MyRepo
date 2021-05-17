@@ -9,8 +9,7 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation",
-				"relativeUrl": "https://www.stats.govt.nz/assets/Uploads/Business-operations-survey/Business-operations-survey-2020/Download-data/business-operations-survey-2020-covid-19-csv.csv"
+				"type": "HttpServerLocation"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
