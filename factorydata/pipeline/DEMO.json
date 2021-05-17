@@ -25,11 +25,33 @@
 							"type": "DelimitedTextReadSettings"
 						}
 					},
-					"enableStaging": false
+					"sink": {
+						"type": "DelimitedTextSink",
+						"formatSettings": {
+							"type": "DelimitedTextWriteSettings",
+							"quoteAllText": true,
+							"fileExtension": ".csv"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
 				},
 				"inputs": [
 					{
 						"referenceName": "Demo_csv",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "DEMO_file_in_lakeroot",
 						"type": "DatasetReference"
 					}
 				]
