@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://media-www.micron.com/-/media/client/global/documents/products/power-calculator/ddr4_impedance_target_calculator.xlsx?rev=25e0a6a32d5c452e9f75a5fff793307e",
+			"url": "https://www.stats.govt.nz/assets/Uploads/Business-operations-survey/Business-operations-survey-2020/Download-data/business-operations-survey-2020-covid-19-csv.csv",
 			"enableServerCertificateValidation": false,
 			"authenticationType": "Anonymous"
 		}
