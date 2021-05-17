@@ -48,7 +48,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Demo_csv",
+						"referenceName": "Demo_HTTP_csv",
 						"type": "DatasetReference"
 					}
 				],
